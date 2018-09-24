@@ -21,4 +21,9 @@ for x in data:
 print('一共有', len(new), '筆小於長度100')
 print(new[0])
 
+good = []
+for x in data:
+	if 'good' in x:
+		good.append(x)
+print('一共有', len(good), '筆包含good')
 
